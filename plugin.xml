@@ -11,15 +11,11 @@
 
     <license>MIT License, see LICENSE.md for details</license>
 
-    <engines>
-            <engine name="cordova" version="&gt;=3.0.0" />
-    </engines>
 
     <js-module src="www/cdv-plugin-mercadopago.js" name="MercadoPago">
         <clobbers target="MercadoPago" />
     </js-module>
 
-     <dependency id="cordova-plugin-add-swift-support" version="1.6.0"/>
 
 <!--    <hook type="after_platform_add" src="hooks/addEmbedded.js" />-->
 
